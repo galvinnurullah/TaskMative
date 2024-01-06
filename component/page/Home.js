@@ -2,7 +2,7 @@ import React from 'react'
 import { Text, View } from "react-native";
 import tw from "twrnc";
 
-export const Home = () => {
+const Home = (props) => {
   return (
     <View style={tw`px-2 android: pt-2 bg-white`}>
       <Text
@@ -18,3 +18,5 @@ export const Home = () => {
     </View>
   );
 }
+
+export default Home;
